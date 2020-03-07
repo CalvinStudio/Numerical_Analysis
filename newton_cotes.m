@@ -33,5 +33,4 @@ fx = double(subs(f));   % n等分后每个x点对应的函数值
 NC = (up-low)*sum(Cn.*fx);
 fprintf('牛顿-科茨求积公式近似结果为: %.7f\n',NC);
 fprintf('真实结果为: %f\n',R);
-//哈哈哈哈啊哈
 
